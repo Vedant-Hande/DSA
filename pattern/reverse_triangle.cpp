@@ -3,10 +3,11 @@ using namespace std;
 
 int main()
 {
-    int n = 8;
+    int n = 6; // Size of the triangle pattern
+
     for (int i = 0; i <= n - 1; i++)
     {
-        for (int j = 0; j < i; j++)
+        for (int j = i + 1; j >= 1; j--)
         {
             cout << j << " ";
         }
