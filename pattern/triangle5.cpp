@@ -3,12 +3,12 @@ using namespace std;
 
 int main()
 {
-    int n = n;
-    char ch = 'a';
+    int n = 26; // Size of the triangle pattern
 
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i <= n; i++)
     {
-        for (int j = 0; j < n; j++)
+        char ch = 'A';
+        for (int j = 0; j < i; j++)
         {
             cout << ch << " ";
             ch++;
