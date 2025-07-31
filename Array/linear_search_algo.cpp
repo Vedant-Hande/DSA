@@ -1,3 +1,5 @@
+// linear_search_algorithm
+
 #include <iostream>
 using namespace std;
 
