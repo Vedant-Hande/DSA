@@ -17,7 +17,7 @@ int searchNumber(vector<int> &nums, int target)
 int main()
 {
     int target = 2;
-    vector<int> nums = {
-        4, 1, 2, 1, 2};
+    vector<int> nums = {4, 1, 2, 1, 2};
+    
     cout << "target :" << searchNumber(nums, target);
 }
