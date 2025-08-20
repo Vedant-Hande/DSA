@@ -3,7 +3,7 @@
 #include <climits>
 using namespace std;
 
-vector<int> pairSum(vector<int> nums, int target)
+vector<int> pairSum(vector<int> &nums, int target)
 {
     vector<int> result;
     int left = 0, right = nums.size() - 1;
@@ -36,4 +36,5 @@ int main()
     vector<int> ans = pairSum(nums, target);
 
     cout << "pairSum :" << ans[0] << " " << ans[1];
+    return 0;
 }
