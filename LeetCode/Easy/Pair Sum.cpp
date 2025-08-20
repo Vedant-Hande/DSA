@@ -3,7 +3,7 @@
 #include <climits>
 using namespace std;
 
-vector<int> pairSum(vector<int> &nums, int target)
+vector<int> pairSum(vector<int> &nums, int target) // O(n)
 {
     vector<int> result;
     int left = 0, right = nums.size() - 1;
