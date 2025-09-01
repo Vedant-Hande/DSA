@@ -3,6 +3,9 @@
 
 using namespace std;
 
+
+
+
 void changeA(int *ptr) // change the a value using pointers
 {
     *ptr = 20;
