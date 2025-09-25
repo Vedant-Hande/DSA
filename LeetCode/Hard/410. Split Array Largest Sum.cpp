@@ -41,7 +41,6 @@ public:
             max_element = max(max_element, nums[i]);
         }
 
-        // Problem 1 Fix: The search range starts from the largest element.
         int start = max_element;
         int end = sum;
         int ans = -1;
